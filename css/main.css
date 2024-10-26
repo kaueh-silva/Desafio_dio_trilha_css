@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+.header_banner {
+
+    height: 37.813em;
+    background-image: linear-gradient(rgba(0, 0, 0, 1),
+            rgba(7, 71, 99, 1),
+            rgba(0, 0, 0, 1)), url(../imagens/bg_header.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid #33A8DB;
+
+}
+
+.header_content {
+    width: 31.875em;
+    height: 24.563em;
+}
+
+.header_btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #31A8DD;
+    border: solid 1px #31A8DD;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1.174em;
+    font-weight: 900;
+    padding: 1.188em 5.688em;
+    margin: 2em 0em;
+    transition: 1s ease-in-out;
+
+
+}
+
+.header_btn:hover {
+    background-image: linear-gradient(30deg, #348fb6, #058ef0, #095c97);
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+
+
+
+
+}
+
+.header_titile {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5em;
+    font-family: "Raleway", sans-serif;
+    background: -webkit-linear-gradient(#33A8DB, #058ef0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+}
+
+.header_banner .header_content p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.468em;
+    color: white;
+}
+
+
+.section_first {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #31A8DD;
+
+
+}
+
+
+
+.section_content {
+    width: 49.5em;
+    margin-bottom: 10em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1.5em;
+    margin-top: 2em;
+
+    box-sizing: border-box;
+
+
+}
+
+.section_title {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 2.348em;
+    color: #33A8DB;
+    text-transform: uppercase;
+
+}
+
+.child {
+    text-align: center;
+    width: 33.438em;
+    height: 3.188em;
+    border-radius: 57px;
+    text-align: center;
+    background-color: #252525;
+    border: solid 1px #33A8DB;
+
+
+}
+
+.child span,
+p {
+    font-weight: 400;
+    line-height: 1.174em;
+    font-size: 1em;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.child span {
+    color: #33A8DB;
+}
+
+
+.second_section {
+    height: 22.688em;
+    background-image: url(../imagens/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
+
+.second_section_texto {
+
+
+    margin-left: 5em;
+    font-size: 2.5em;
+    line-height: 2.935em;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    text-shadow: 3px 2px #33A8DB;
+
+}
+
+
+.section_three_titlle {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2;
+    font-family: "Raleway", sans-serif;
+    margin-top: 5em;
+    color: #33A8DB;
+}
+
+.section_three {
+    background-color: #000000;
+    border-top: 1px solid #31A8DD;
+    border-bottom: 1px solid #31A8DD;
+
+}
+
+.section_three_content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.section_three_paragrafo {
+    width: 49.5em;
+    height: 4.75em;
+    margin-bottom: 10em;
+}
+
+.section_three_paragrafo p {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.174em;
+
+}
+
+footer {
+    background-color: #000000;
+    height: 10.625em;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.footer_texto {
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.174em;
+}
+
+footer a {
+    color: #058ef0;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.174em;
+
+}
